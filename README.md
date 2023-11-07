@@ -1,4 +1,4 @@
-![](github_resources/poster.png)
+[<img src="github_resources/poster.png">](https://www.google.com)
 
 ## Introduction
 
