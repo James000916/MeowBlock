@@ -1,4 +1,4 @@
-![poster](https://github.com/James000916/MeowBlock/assets/86011275/56022ff9-6e59-413a-bdfb-0d60c781bca6)
+![](github_resources/poster.png)
 
 ## Introduction
 
