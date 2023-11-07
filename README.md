@@ -4,4 +4,4 @@
 
 "MeowBlock" is designed to enhance your YouTube experience by seamlessly blocking those pesky and often intrusive advertisements that interrupt your favorite videos. Developed using simple JavaScript, this extension works diligently in the background to ensure that you can enjoy uninterrupted content without any distractions.
 
-[![](https://raw.githubusercontent.com/James000916/MeowBlock/main/github_resources/Chrome%20Web%20Store%20badge.png?token=GHSAT0AAAAAACJ7GCGA5X43OEIIBCGVJ2T2ZKKB2AQ)](www.google.com)
+[<img src="github_resources/Chrome Web Store badge.png">](https://www.google.com)
