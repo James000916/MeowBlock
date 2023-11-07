@@ -1,4 +1,4 @@
-console.log("Thank you for using MeowBlock!😺");
+// Thank you for using MeowBlock!😺
 
 var video = document.getElementsByClassName("video-stream")[0];
 if (video) {
@@ -48,7 +48,9 @@ function removeStaticAds() {
   pageAds.forEach((ad) => {
     const elements = document.querySelectorAll(ad);
     elements.forEach((el) => {
-      el.remove();
+      if (el) {
+        el.remove();
+      }
     });
   });
 };
