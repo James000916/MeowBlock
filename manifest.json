@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "MeowBlock",
+  "version": "1.0.1",
+  "author": "James Mok",
+  "description": "Undetectable YouTube AdBlocker",
+  "icons": {
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Undetectable YouTube AdBlocker"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}

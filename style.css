@@ -1,0 +1,54 @@
+body {
+	width: 300px;
+}
+
+.fs-12 {
+	font-size: 12px !important;
+}
+
+.fa-shield-cat {
+	font-size: 50px;
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.custom-badge {
+	padding: 3px 10px;
+	color: #595c5f !important;
+	background-color: whitesmoke;
+	border-radius: 3px;
+	text-decoration: none !important;
+}
+
+#circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #1de9b6;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  opacity: 0;
+  animation: pulse 4s infinite cubic-bezier(0.4, 0, 1, 1);
+}
+
+.circle-item {
+  z-index: 100;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
