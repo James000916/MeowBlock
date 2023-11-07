@@ -1,6 +1,6 @@
 console.log("Thank you for using MeowBlock!😺");
 
-var video = document.querySelector("video");
+var video = document.getElementsByClassName("video-stream")[0];
 if (video) {
   video.addEventListener("timeupdate", function() {
     skipAd();
