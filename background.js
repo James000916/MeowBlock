@@ -27,12 +27,3 @@ const hideAds = async () => {
 
   hideAds();
 };
-
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.status === "complete" && String(tab.url).includes("https://www.youtube.com/watch")) {
-    chrome.scripting.executeScript({
-      target: { tabId: tabId },
-      function: hideAds,
-    });
-  }
-});
