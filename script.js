@@ -45,8 +45,8 @@ const hideAds = async () => {
 
 const init = async () => {
   Document.prototype.hideElementsBySelector = (selector) =>
-    [...document.querySelectorAll(selector)].forEach(
-      (el) => (el.style.display = "none")
+    [...document.querySelectorAll(selector)].forEach((el) => 
+      (el.remove())
     );
 
     hideAds();
