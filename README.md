@@ -8,4 +8,4 @@
 
 ## Disclaimer
 
-This extension is designed for educational use only. It's important to note that the extension ensures user privacy as it neither collects nor stores any personal information from browsing activities. However, users should be aware that the extension is provided "as-is," without any warranties or guarantees, and the developers do not assume responsibility for any disruptions, damages, or losses that may occur while using it.
+This extension is designed for educational use only. It prioritizes user privacy by neither collecting nor storing any personal information from browsing activities. However, users should understand that the extension is provided "as-is," without warranties or guarantees, and the developers do not accept responsibility for any disruptions, damages, or losses that may occur during its use.
