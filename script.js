@@ -31,7 +31,7 @@ const hideAds = async () => {
       ];
 
       staticAds.forEach((ad) => {
-          document.hideElementsBySelector(ad);
+        document.hideElementsBySelector(ad);
       });
 
       resolve();
