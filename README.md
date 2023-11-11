@@ -6,6 +6,12 @@
 
 [<img src="github_resources/Chrome Web Store badge.png">](https://chromewebstore.google.com/detail/meowblock-an-undetectable/gelbkkociddbdieodlcbnnbpeneeiaad)
 
+## What MeowBlock can do
+
+✅Skips the ads on the player
+✅Removes ads on the home page, search page, player page
+✅Stays undetectable by YouTube.
+
 ## Working principle
 
 1. Sets the current playback time of the ads to one second before the end
