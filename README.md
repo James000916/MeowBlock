@@ -6,6 +6,14 @@
 
 [<img src="github_resources/Chrome Web Store badge.png">](https://chromewebstore.google.com/detail/meowblock-an-undetectable/gelbkkociddbdieodlcbnnbpeneeiaad)
 
+## Working principle
+
+1. Sets the current playback time of the ads to one second before the total duration of the video
+2. Triggers a click event on the skip button
+3. Done
+
+The above procedure is automatically completed in less than 1 second.
+ 
 ## Disclaimer
 
 This extension is designed for educational use only. It prioritizes user privacy by neither collecting nor storing any personal information from browsing activities. However, users should understand that the extension is provided "as-is", without warranties or guarantees, and the developers do not accept responsibility for any disruptions, damages, or losses that may occur during its use.
