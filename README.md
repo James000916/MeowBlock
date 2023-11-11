@@ -8,7 +8,7 @@
 
 ## Working principle
 
-1. Sets the current playback time of the ads to one second before the total duration of the video
+1. Sets the current playback time of the ads to one second before the end
 2. Triggers a click event on the skip button
 3. Done
 
