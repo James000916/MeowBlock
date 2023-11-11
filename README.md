@@ -26,7 +26,7 @@ The above procedure is automatically completed in less than 1 second, making the
 
 ## Support
 
-[Buy me a cat food😸](https://www.buymeacoffee.com/jamesmok0916)
+[Buy me a cat treat😸](https://www.buymeacoffee.com/jamesmok0916)
  
 ## Disclaimer
 
