@@ -1,10 +1,10 @@
-[<img src="github_resources/poster.png">](https://www.google.com)
+[<img src="github_resources/poster.png">]([https://www.google.com](https://chromewebstore.google.com/detail/meowblock-an-undetectable/gelbkkociddbdieodlcbnnbpeneeiaad))
 
 ## Introduction
 
 "MeowBlock" is designed to enhance your YouTube experience by seamlessly blocking those pesky and often intrusive advertisements that interrupt your favorite videos. Developed using simple JavaScript, this extension works diligently in the background to ensure that you can enjoy uninterrupted content without any distractions while keeping undetectable by YouTube.
 
-[<img src="github_resources/Chrome Web Store badge.png">](https://www.google.com) (Coming Soon!)
+[<img src="github_resources/Chrome Web Store badge.png">]([https://www.google.com](https://chromewebstore.google.com/detail/meowblock-an-undetectable/gelbkkociddbdieodlcbnnbpeneeiaad)) (Coming Soon!)
 
 ## Disclaimer
 
