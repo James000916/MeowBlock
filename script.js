@@ -13,7 +13,7 @@ const hideAds = async () => {
 
       if ((isAd && skipLock) || (isAd && skipLockModern)) {
         videoPlayer.muted = true;
-        videoPlayer.currentTime = videoPlayer.duration - 1;
+        videoPlayer.currentTime = videoPlayer.duration - 0.1;
         videoPlayer.play();
         skipButton?.click();
         skipButtonModern?.click();
