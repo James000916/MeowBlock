@@ -11,7 +11,7 @@
 ## What MeowBlock can do
 
 ✅ Free - No subscription or payment is needed.   
-✅ Skips ads on the player in less than 1 second.   
+✅ Skips ads on the player in less than a second.   
 ✅ Removes ad elements on the home page, search page, and player page.   
 ✅ Uses simple JavaScript only while remaining undetectable by YouTube.   
 ✅ No personal data is collected.
