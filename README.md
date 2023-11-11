@@ -9,7 +9,7 @@
 ## What MeowBlock can do
 
 ✅Skips the ads on the player.   
-✅Removes ads on the home page, search page, player page.   
+✅Removes ad elements on the home page, search page, player page.   
 ✅Stays undetectable by YouTube.   
 
 ## Working principle
