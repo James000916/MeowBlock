@@ -2,6 +2,8 @@
 
 ## Introduction
 
+*An Free, Undetectable YouTube AdBlocker.*   
+
 "MeowBlock" is designed to enhance your YouTube experience by seamlessly blocking those pesky and often intrusive advertisements that interrupt your favorite videos. Developed using simple JavaScript, this extension works diligently in the background to ensure that you can enjoy uninterrupted content without any distractions while keeping undetectable by YouTube.
 
 [<img src="github_resources/Chrome Web Store badge.png">](https://chromewebstore.google.com/detail/meowblock-an-undetectable/gelbkkociddbdieodlcbnnbpeneeiaad)
@@ -20,6 +22,10 @@
 3. Done.
 
 The above procedure is automatically completed in less than 1 second, making the player think that you have watched the ads.
+
+## Support
+
+[Buy me a cat food](https://www.buymeacoffee.com/jamesmok0916)
  
 ## Disclaimer
 
