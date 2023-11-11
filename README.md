@@ -12,7 +12,7 @@
 2. Triggers a click event on the skip button
 3. Done
 
-The above procedure is automatically completed in less than 1 second.
+The above procedure is automatically completed in less than 1 second, making the player think that you have watched the ads.
  
 ## Disclaimer
 
