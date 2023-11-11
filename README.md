@@ -13,8 +13,8 @@
 ✅ Free - no subscription or payment is needed.   
 ✅ Skips the ads on the player in less than 1 second.   
 ✅ Removes ad elements on the home page, search page and player page.   
-✅ Stays undetectable by YouTube.   
-✅ Uses simple JavaScript only. No personal data is collected.
+✅ Uses simple JavaScript only while remaining undetectable by YouTube.   
+✅ No personal data is collected.
 
 ## Working principle
 
