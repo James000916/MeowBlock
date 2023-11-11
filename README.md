@@ -8,15 +8,15 @@
 
 ## What MeowBlock can do
 
-✅Skips the ads on the player
-✅Removes ads on the home page, search page, player page
-✅Stays undetectable by YouTube.
+✅Skips the ads on the player.   
+✅Removes ads on the home page, search page, player page.   
+✅Stays undetectable by YouTube.   
 
 ## Working principle
 
-1. Sets the current playback time of the ads to one second before the end
-2. Triggers a click event on the skip button
-3. Done
+1. Sets the current playback time of the ads to one second before the end.
+2. Triggers a click event on the skip button.
+3. Done.
 
 The above procedure is automatically completed in less than 1 second, making the player think that you have watched the ads.
  
