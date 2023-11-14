@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "MeowBlock: An Undetectable YouTube™ AdBlocker",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "author": "James Mok",
-  "description": "An Undetectable YouTube AdBlocker",
+  "description": "A Free, Undetectable, Open Source YouTube AdBlocker.",
   "icons": {
     "16": "icon/icon16.png",
     "32": "icon/icon32.png",
@@ -13,7 +13,7 @@
   "permissions": ["scripting"],
   "action":{
     "default_popup": "index.html",
-    "default_title": "Undetectable YouTube AdBlocker"
+    "default_title": "MeowBlock: An Undetectable YouTube™ AdBlocker"
   },
   "background": {
     "service_worker": "background.js"
