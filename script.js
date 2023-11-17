@@ -1,5 +1,3 @@
-// Thank you for using MeowBlock!😺
-
 const hideAds = async () => {
   await new Promise((resolve, reject) => {
     const videoContainer = document.getElementById("movie_player");
