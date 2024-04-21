@@ -8,9 +8,9 @@ const hideAds = async () => {
       const isAd = videoContainer?.classList.contains("ad-interrupting") || videoContainer?.classList.contains("ad-showing");
       const videoPlayer = document.getElementsByClassName("video-stream")[0];
       const surveyLock = document.querySelector(".ytp-ad-survey")?.length > 0;
-      const skipLock = document.querySelector(".ytp-ad-preview-text")?.innerText;
+      const skipLock = document.querySelector(".ytp-preview-ad")?.innerText;
       const skipLockModern = document.querySelector(".ytp-ad-preview-text-modern")?.innerText;
-      const skipButton = document.querySelector(".ytp-ad-skip-button");
+      const skipButton = document.querySelector(".ytp-skip-ad-button");
       const skipButtonModern = document.querySelector(".ytp-ad-skip-button-modern");
 
       if ((isAd && skipLock) || (isAd && skipLockModern)) {
