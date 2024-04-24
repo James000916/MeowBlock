@@ -1,7 +1,7 @@
 // Thank you for using MeowBlock!😺
 
 const hideAds = async () => {
-  const response = await fetch('https://0x48piraj.github.io/fadblock/variables.json');
+  const response = await fetch('https://james000916.github.io/MeowBlock/variables.json');
   const variables = await response.json();
 
   await new Promise((resolve, reject) => {
