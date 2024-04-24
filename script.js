@@ -8,13 +8,13 @@ const hideAds = async () => {
     const videoContainer = document.getElementById(variables.videoContainer);
 
     const setTimeoutHandler = () => {
-      const isAd = videoContainer?.classList.contains(variables.isAdClass1) || videoContainer?.classList.contains(variables.isAdClass2);
-      const videoPlayer = document.getElementsByClassName(variables.videoPlayer)[0];
-      const surveyLock = document.querySelector(variables.surveyLock)?.length > 0;
-      const skipLock = document.querySelector(variables.skipLock)?.innerText;
-      const skipLockModern = document.querySelector(variables.skipLockModern)?.innerText;
-      const skipButton = document.querySelector(variables.skipButton);
-      const skipButtonModern = document.querySelector(variables.skipButtonModern);
+      const isAd = videoContainer?.classList.contains("ad-interrupting") || videoContainer?.classList.contains("ad-showing");
+      const videoPlayer = document.getElementsByClassName("video-stream")[0];
+      const surveyLock = document.querySelector(".ytp-ad-survey")?.length > 0;
+      const skipLock = document.querySelector(".ytp-ad-preview-text")?.innerText;
+      const skipLockModern = document.querySelector(".ytp-ad-preview-text-modern")?.innerText;
+      const skipButton = document.querySelector(".ytp-ad-skip-button");
+      const skipButtonModern = document.querySelector(".ytp-ad-skip-button-modern");
 
       if ((isAd && skipLock) || (isAd && skipLockModern)) {
         videoPlayer.muted = true;
