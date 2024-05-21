@@ -32,7 +32,7 @@ const hideAds = async () => {
         ".ytd-display-ad-renderer", ".ytd-statement-banner-renderer", ".ytd-in-feed-ad-layout-renderer", // homepage ads
         "div#player-ads.style-scope.ytd-watch-flexy, div#panels.style-scope.ytd-watch-flexy", // sponsors
         ".ytd-banner-promo-renderer", ".ytd-video-masthead-ad-v3-renderer", ".ytd-primetime-promo-renderer", // subscribe for premium & youtube tv ads
-        "#masthead-ad", ".ytd-ad-slot-renderer", ".ytd-promoted-sparkles-web-renderer" // others
+        "#masthead-ad", ".ytd-ad-slot-renderer", ".ytd-promoted-sparkles-web-renderer", ".ytd-merch-shelf-renderer" // others
       ];
 
       staticAds.forEach((ad) => {
