@@ -24,6 +24,15 @@ const hideAds = async () => {
         skipButtonModern?.click();
       }
 
+      var popup = document.querySelector('ytd-enforcement-message-view-model');
+      if (popup) {
+        popup.remove();
+        var backdrop = document.querySelector('tp-yt-iron-overlay-backdrop');
+        if (backdrop) {
+          backdrop.removeAttribute('opened');
+        }
+      }
+
       const staticAds = [
         ".ytd-companion-slot-renderer", ".ytd-action-companion-ad-renderer", // in-feed video ads
         ".ytd-watch-next-secondary-results-renderer.sparkles-light-cta", ".ytd-unlimited-offer-module-renderer", // similar components
