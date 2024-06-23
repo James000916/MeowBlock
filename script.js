@@ -29,7 +29,8 @@ const hideAds = async () => {
         popup.remove();
         var backdrop = document.querySelector('tp-yt-iron-overlay-backdrop');
         if (backdrop) {
-          backdrop.removeAttribute('opened');
+          backdrop.classList.remove('opened');
+          backdrop.classList.add('closed');
         }
       }
 
