@@ -24,14 +24,9 @@ const hideAds = async () => {
         skipButtonModern?.click();
       }
 
-      var popup = document.querySelector('ytd-enforcement-message-view-model');
+      var popup = document.querySelector("body > ytd-app > ytd-popup-container > tp-yt-paper-dialog");
       if (popup) {
-        popup.remove();
-        var backdrop = document.querySelector('tp-yt-iron-overlay-backdrop');
-        if (backdrop) {
-          backdrop.classList.remove('opened');
-          backdrop.classList.add('closed');
-        }
+        popup.parentNode.removeChild(popup);
       }
 
       const staticAds = [
