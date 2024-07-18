@@ -25,8 +25,11 @@ const hideAds = async () => {
       }
 
       var popup = document.querySelector("body > ytd-app > ytd-popup-container > tp-yt-paper-dialog");
-      if (popup) {
+      if (popup && !popup.querySelector("ytd-unified-share-panel-renderer")) {
         popup.parentNode.removeChild(popup);
+        if (videoPlayer.paused) {
+          videoPlayer.play();
+        }
       }
 
       const staticAds = [
